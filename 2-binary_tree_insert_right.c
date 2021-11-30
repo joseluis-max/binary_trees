@@ -5,7 +5,8 @@
  * @parent: parent node for insert new node
  * @value: value new node
  * Return: pointer to the new node or NULL if it failured
- * Description: Where parent is a pointer to the node to insert the right-child in
+ * Description: Where parent is a pointer to the node to
+ * insert the right-child in
  * And value is the value to store in the new node
  * Your function must return a pointer to the created node,
  * or NULL on failure or if parent is NULL
