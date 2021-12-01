@@ -5,7 +5,7 @@
  * @node: node for check
  * Return: 1 if is a root, otherwise 0.
  */
-int binary_tree_is_root(binary_tree_t *node)
+int binary_tree_is_root(const binary_tree_t *node)
 {
 	if (node != NULL && node->parent == NULL)
 		return (1);
