@@ -5,7 +5,7 @@
  * @tree: node binary tree's root
  * Return: number of leaves or NULL if failure
  */
-size_t binary_tree_leaves(binary_tree_t *tree)
+size_t binary_tree_leaves(const binary_tree_t *tree)
 {
 	size_t left = 0;
 	size_t right = 0;
