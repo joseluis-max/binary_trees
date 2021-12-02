@@ -4,7 +4,6 @@
  * height_nodes - Counter the height of a tree but in number of nodes
  * @tree:node binary tree's root
  * Return: size_t height tree in nodes
- *
  */
 size_t height_nodes(const binary_tree_t *tree)
 {
